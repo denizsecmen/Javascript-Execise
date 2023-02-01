@@ -1,0 +1,49 @@
+#bubbles
+{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+.bubble{
+ border-radius: 100%;
+ border: 1px solid black;
+ height: 10px;
+ width: 10px;
+ margin-left: 20px;
+}
+#imageview > img{
+    width: 400px;
+    height: 300px;
+}
+.bubble:hover
+{
+    background-color: gray;
+}
+#go
+{
+    position: absolute;
+    top:150px;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+i{
+    align-items: center;
+}
+#back
+{
+    position:absolute;
+    left:373px;
+    top:150px;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
