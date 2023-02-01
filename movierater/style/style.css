@@ -1,0 +1,111 @@
+
+body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+nav
+{
+    height: 50px;
+    width: 100%;
+    background-color: lightblue;
+    overflow: hidden;
+}
+nav > button
+{
+    background-color: lightcoral;
+    border:0px;
+    color:white;
+    width: 80px;
+    height: 35px;
+    font-size: 14px;
+    margin-top: 7.5px;
+    float: right;
+    margin-right: 1%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+nav > button:hover
+{
+    background-color: red;
+}
+nav > input
+{
+    height: 28.5px;
+    margin-top: 7.5px;
+    margin-left: 75%;
+    width: 160px;
+}
+#modal
+{
+    position: absolute;
+    top:0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#modal-add
+{
+    position: relative;
+    left: 40%;
+    width: 11%;
+    margin-top: 10%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+#modal-add >div
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#modal-add >img
+{
+   width: 100px;
+   height: 100px;
+   position: relative;
+   left: 30px;
+}
+#buttons
+{
+    position: relative;
+    left: 35%;
+}
+#close
+{
+    float: right;
+    font-size: 18px;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor:pointer;
+}
+.movieitem > img
+{
+    width: 200px;
+    height: 300px;
+}
+.movieitem
+{
+    background-color:lightgray;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+#screen
+{
+    width: 98.8vw;
+    height: 720px;
+    flex-direction: row;
+    display: flex;
+    padding: 10px;
+    flex-wrap:wrap;
+    overflow: scroll;
+    overflow-x:hidden;
+}
