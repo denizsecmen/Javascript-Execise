@@ -1,0 +1,91 @@
+html
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: Roboto;
+}
+#sidebar
+{
+    height: 100%;
+    width: 20%;
+    transition: 0.3s;
+    background-color: lightgray;
+    transition: 0.3s;
+    overflow: hidden;
+}
+#content
+{
+    height: 100%;
+    width: 80%;
+    transition: 0.3s;
+    background-color: lightblue;
+}
+#close
+{
+    font-size: 24px;
+    margin-top: 2%;
+    width: 100%;
+    cursor: pointer;
+}
+.element
+{
+    position: relative;
+    height:  50px;
+    font-size: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.element > div
+{
+    position: relative;
+    top:10px;
+    left: 15%;
+}
+#close > div
+{
+    position: relative;
+    left:90%;
+}
+#filter
+{
+    background-color: green;
+    color: white;
+    border: 0px;
+    height: 35px;
+    width: 60px;
+    margin-left: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    
+}
+#filt
+{
+    height: 30px;
+}
+#show
+{
+    width: 90px;
+    height: 50px;
+    font-size: 18px;
+    font-family: Roboto;
+    background-color: green;
+    border:0px;
+    color:white;
+    position: relative;
+    top:50px;
+    left:100px;
+}
+#filt
+{
+    font-size: 14px;
+}
