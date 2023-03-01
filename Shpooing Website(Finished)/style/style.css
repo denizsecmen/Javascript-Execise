@@ -1,0 +1,212 @@
+html
+{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin:0;
+}
+body
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: Roboto;
+}
+#panel
+{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+}
+#main
+{
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+}
+#sidebar
+{
+    width: 15%;
+    height: 100%;
+}
+#shopping
+{
+    width: 0%;
+    height: 100%;
+    float: right;
+    transition: 0.3s;
+}
+#main
+{
+    font-size: 34px;
+}
+#control
+{
+    cursor: pointer;
+}
+#shopping
+{
+    overflow: hidden;
+    position: absolute;
+    background-color: white;
+    right:0%;
+    border-radius: 5px;
+    z-index: 0;
+}
+nav
+{
+    height: 7%;
+    width: 100%;
+    display: flex;
+}
+#shrink
+{
+    width: 95%;
+    flex-shrink: 1;
+}
+nav > img
+{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+#cpanel
+{
+    margin-right: 10px;
+}
+#cart
+{
+    margin-left: 10px;
+}
+#close
+{
+    font-size: 26px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#plus > div
+{
+    font-size: 25px;
+}
+
+#panelm
+{
+    position: absolute;
+    top:15%;
+    left: 35%;
+    height: 60%;
+    width: 25%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    overflow:hidden;
+    border-radius: 5px;
+}
+#panelm >img
+{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left:27%;
+}
+#icon
+{
+    font-size: 24px;
+    position: relative;
+    left: 67%;
+    cursor: pointer;
+}
+#panelm > div 
+{
+    position: relative;
+    left:27%;
+}
+#panelm > input 
+{
+    position: relative;
+    left:27%;
+}
+#quota
+{
+    width: 30px;
+}
+#buttons
+{
+    margin-top: 5px;
+    margin-left: 60px;
+    white-space: nowrap;
+}
+#content
+{
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 93%;
+    overflow-y: scroll;
+}
+.item
+{
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+    height: 300px;
+    border: 0.5px solid gray;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px,5px;
+
+}
+.item > img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+#total
+{
+    font-size: 18px;
+    position: relative;
+    left: 75%;
+}
+#pric
+{
+    position: relative;
+    left:80%;
+}
+.test
+{
+    position: relative;
+    left:10%;
+}
+hr
+{
+    font-weight: 300;
+}
+#items
+{
+    height: 30%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}  
+.pre
+{
+    position: absolute;
+    left: 30%;
+    width: 30%;
+}
+.rs
+{
+    width: 30px;
+    height: 30px;
+}
+.y
+{
+    position: relative;
+    left: 60%;
+}

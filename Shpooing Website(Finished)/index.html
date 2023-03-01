@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopLay</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script/script.js" defer></script> 
+    <script src="https://kit.fontawesome.com/bbc8f5073e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,300&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/2038/2038767.png">
+</head>
+<body>
+    <div id="panel">
+        <div id="panelm">
+            <div id="modelex"><div id="icon">X</div></div>
+            <img src="https://cdn-icons-png.flaticon.com/512/2038/2038767.png">
+            <div id="inp">Item name:</div>
+            <input type="text" id="item">
+            <div id="p">Price:</div>
+            <input type='number' min="0" id="price">
+            <div id="q">Quota:</div>
+            <input type="number" min="0" id="quota">
+            <div id="t">Image url:</div>
+            <input type="text"  id="url">
+            <div id="buttons">
+                <button id="reset">Reset</button>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <nav>
+            <img id="cart" src="./images/1842086-200.png">
+            <div id="shrink"></div>
+            <img id="cpanel" src="./images/cpanael.png">
+        </nav>
+        <div id="content">
+        </div>
+    </div>
+    <div id="shopping">
+        <div id="close">X</div>
+        <div id="items">
+        </div>
+        <div id="plus"><div>+</div></div>
+        <hr>
+        <div><span id="total">0$</span></div>
+    </div>
+</body>
+</html>
